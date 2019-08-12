@@ -1,0 +1,167 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+body{
+  height:100vh;
+  margin: 0;
+  background-color: white;
+  color:whitesmoke;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* NAV BAR */
+.navbar{
+  position: relative;
+  justify-content: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  font-weight: normal;
+  text-align: center;
+  height: 5vh;
+  width: 100vw;
+  background-color: #1b6ebd;
+}
+
+p{
+  box-shadow: 0 8px 6px 0 rgba(0,0,0,0.10);
+  border-radius:5px;
+  position: relative;
+  font-size:0.75em;
+  font-weight:lighter;
+  text-align: center;
+  width: 95%;
+  height:10vh;
+  background-color: #1b6ebd;
+  padding-top:2%;
+  padding-bottom:2%;
+}
+
+p2{
+  box-shadow: 0 8px 6px 0 rgba(0,0,0,0.10);
+  border-radius:5px;
+  position: relative;
+  font-size:.9em;
+  font-weight: normal;
+  text-align: left;
+  width: 100%;
+  background-color: #1b6ebd;
+}
+
+.boldValue{
+  font-size:2.0em;
+  font-weight:normal;
+}
+
+.changeValue{
+  color:greenyellow;
+  text-align: right;
+}
+
+table{
+  padding:4%;
+  height:90%;
+  width:100%;
+}
+
+th, td {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.34);
+}
+
+td:nth-child(odd){
+  font-weight: lighter;
+}
+td:nth-child(even){
+  font-size: 1.0em;
+}
+
+
+caption{
+  padding-bottom: 5%;
+  padding-top: 5%;
+  font-size:1.25em;
+  font-weight: normal;
+}
+
+#top10earners{
+  width: 95%;
+  height:100%;
+  overflow:scroll;
+}
+
+.tableEmployee{
+  font-weight: lighter;
+}
+
+
+
+
+/* MAIN GRID */
+@media screen and (min-width:760px){
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+  grid-gap: 1.5vh;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top:2.5vh;
+  margin-bottom:2.5vh;
+  height: 90vh;
+  width: 98%;
+}}
+
+.module{
+  border-radius:5px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: whitesmoke;
+  box-shadow: 0 8px 6px 0 rgba(0,0,0,0.10);
+  -webkit-column-break-inside: avoid;
+  padding: 3%;
+  box-sizing: border-box;
+}
+
+.module:hover {
+  box-shadow: 0 8px 6px 0 rgba(0,0,0,0.40);
+}
+
+#moduleOne{
+  display:flex;
+  align-items: center;
+  vertical-align: middle;
+  grid-column: 1 / span 2;
+  grid-row: 1  / span 3;  
+}
+
+
+#moduleTwo{
+  grid-column: 3 / span 2;
+  grid-row: 1 / span 3;
+}
+
+#moduleThree{
+  grid-column: 5 / span 5;
+  grid-row: 1;
+  grid-row: 1  / span 3;
+}
+
+#moduleFour{
+  display:flex;
+  align-items: center;
+  grid-column: 10;
+  grid-row: 1 / span 10;
+  font-size:.90em;
+}
+
+
+#moduleFive{
+  grid-column: 1 / span 9;
+  grid-row: 4 / span 6;
+}
+
+
+
+
+

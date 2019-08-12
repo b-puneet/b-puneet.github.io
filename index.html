@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Sunshine Stats</title>
+  </head>
+  <body>
+    <div class='navbar'>
+    </div>
+    </div>
+    </div>
+  <div class='grid-container'>
+    <div class='module' id='moduleOne'>
+      <p>$100,000+ Public Sector Salaries<br><br>
+      <span class="boldValue">4501</span><br>
+      <span class="changeValue">&#8593; 4 from previous</span></p>
+      <p>Avg $100,000+ Public Sector Salary<br><br>
+      <span class="boldValue">$121,495.18</span><br>
+      <span class="changeValue">&#8593; $323 from previous</span></p>
+    </div>
+    <div class='module' id='moduleTwo'>
+        <canvas id="sectorBreakdown" width="100px" height="100px"></canvas>
+    </div>
+    <div class='module' id='moduleThree'>
+        <canvas id="sectorBreakdown1" width="100px" height="100px"></canvas>
+    </div>
+    <div class='module' id='moduleFour'>
+      <p2 id="top10earners">
+      <table>
+      <thead>
+        <caption>Top 10 Earners of the Year</caption>
+      <tr>
+        <td>1. KUPCIS, O<br>Ontario Hydro<br>President & CEO</td>
+        <td>$502,853.00</td>
+      </tr>
+      <tr>
+          <td>2.Vinson,Robert<br>Woodstock General Hospital Trust<br>Chief of Diagnostic Imaging</td>
+          <td>$392,800.80</td>
+      </tr>
+      <tr>
+          <td>3.Strofolino,Michael<br>The Hospital for Sick Children<br>President & CEO</td>
+          <td>$390,000.00</td>
+      </tr>
+      <tr>
+          <td>4.CLITHEROE,E<br>Ontario Hydro<br>EXEC VP, CFO & MGNG DIR-CORP BUS GROUP</td>
+          <td>$383,800.00</td>
+      </tr>
+      <tr>
+          <td>5.FOX,J<br>Ontario Hydro<br>EXEC VP & MGNG DIR-CUSTOMER SERVICES GR</td>
+          <td>$382,942.00</td>
+      </tr>
+      <tr>
+          <td>6.Hudson,Alan<br>The Toronto Hospital<br>President & CEO</td>
+          <td>$357,500.01</td>
+      </tr>
+      <tr>
+          <td>7.SHAW,J<br>Ontario Hydro<br>ON ASSIGNMENT TO INPO - ATLANTA GA.</td>
+          <td>$352,003.00</td>
+      </tr>
+      <tr>
+          <td>8.HUGH,G<br>Ontario Hydro<br>EXEC VP & MANAGING DIR, GENRTN BUS GRP</td>
+          <td>$351,897.00</td>
+      </tr>
+      <tr>
+          <td>9.Wedge,John H.<br>Ontario Hydro<br>Surgeon-in-Chief</td>
+          <td>$350,004.00</td>
+      </tr>
+      <tr>
+          <td>10.Filler,Robert M.<br>Ontario Hydro<br>Medical Director External Relations</td>
+          <td>$348,704.00</td>
+      </tr>
+    </table></p2>
+    </div>
+    <div class='module' id='moduleFive'>
+        <canvas id="line-chart" width="600px" height="300px"></canvas>
+    </div>
+  </div>
+  </body>
+  <script src="script.js"></script>
+</html>
