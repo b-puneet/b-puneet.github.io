@@ -7,8 +7,8 @@ var myChart = new Chart(ctx, {
     datasets: [
       { 
 		data:[39, 272, 986, 598, 193, 841, 382, 1190],
-		borderColor:["#556270","#4ECDC4","#3E95CD","#FF6B6B","#E79FF4","#758E4F","#FDE47F","#31572C"],
-		backgroundColor: ["#556270","#4ECDC4","#3E95CD","#FF6B6B","#E79FF4","#758E4F","#FDE47F","#31572C"],
+		borderColor:["white","#4ECDC4","#3E95CD","#FF6B6B","#E79FF4","#758E4F","#FDE47F","#31572C"],
+		backgroundColor: ["white","#4ECDC4","#3E95CD","#FF6B6B","#E79FF4","#758E4F","#FDE47F","#31572C"],
 	  }
     ]
   },
@@ -34,8 +34,8 @@ var myChart1 = new Chart(ctx, {
     datasets: [
       { 
 		data:[117502.01, 112386.67, 120231.35, 118913.21, 121704.32, 139890.52, 110595.34, 116517.27],
-		borderColor:["#556270","#4ECDC4","#3E95CD","#FF6B6B","#E79FF4","#758E4F","#FDE47F","#31572C"],
-		backgroundColor: ["#556270","#4ECDC4","#3E95CD","#FF6B6B","#E79FF4","#758E4F","#FDE47F","#31572C"],
+		borderColor:["white","#4ECDC4","#3E95CD","#FF6B6B","#E79FF4","#758E4F","#31572C","#31572C"],
+		backgroundColor: ["white","#4ECDC4","#3E95CD","#FF6B6B","#E79FF4","#758E4F","#FDE47F","#31572C"],
       }
     ]
   },
@@ -48,7 +48,7 @@ var myChart1 = new Chart(ctx, {
 		  }],
 		xAxes:[{
 			ticks:{
-				min: 100000,
+				min: 0,
 			}
 		}]
 	  },
